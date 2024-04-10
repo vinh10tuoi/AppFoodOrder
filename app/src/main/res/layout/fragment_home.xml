@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment"
+    android:background="#D6D2D1" >
+    
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:autofillHints="*"
+            android:background="@drawable/search_bg2"
+            android:drawableRight="@drawable/baseline_content_paste_search_24"
+            android:drawablePadding="9dp"
+            android:fontFamily="@font/armata"
+            android:hint="Tìm kiếm ở đây..."
+            android:padding="10dp"
+            android:paddingTop="30dp"
+            android:textColorHint="@color/white"
+            android:textSize="13sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="37dp" />
+        
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.core.widget.NestedScrollView>
+
